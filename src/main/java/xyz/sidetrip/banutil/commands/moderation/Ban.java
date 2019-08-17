@@ -20,7 +20,7 @@ public class Ban extends ModCommand {
 
 	@Override
 	protected String getAction() {
-		return Emojis.BAN + " | Banne User";
+		return Emojis.BAN + " | Banned User";
 	}
 
 	@Override
