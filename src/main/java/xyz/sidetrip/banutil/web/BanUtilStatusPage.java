@@ -32,10 +32,10 @@ public class BanUtilStatusPage {
 
         private static final String PRE_CSS = "color: #FF6961;" +
                 "border-style: solid;" +
-                "text-shadow: 1px 2px 10px #2D2F3C;" +
+                "text-shadow: 1px 2px 10px #303030;" +
                 "border: #2D2F3C;" +
                 "font-weight: bolder;" +
-                "background-color: 2D2F3C;" +
+                "background-color: 303030;" +
                 "padding-bottom: 10px;" +
                 "display: inline-block;" +
                 "padding-right:  5px;" +
