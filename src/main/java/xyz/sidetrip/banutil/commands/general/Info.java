@@ -22,9 +22,9 @@ public class Info extends Command {
         EmbedBuilder info = new EmbedBuilder();
         info.withTitle(Emojis.BAN + " | BanUtil");
         info.withColor(BanUtil.BANNING_COLOUR);
-        info.withDescription("I'm **BanUtil** (a stateless single server moderation bot) by MacDue#4453\n"
-                + "I have come here to chew bubblegum and ban tards..."
-                + " and I'm all out of bubblegum.");
+        info.withDescription("Hi! I'm a bot made for NORSKELEVER aka verdens beste server <3"
+                + "Remember ever weekend is norskhelg - Norwegian weekend - meaning that we speak Norwegian as much as possible."
+                + "remember to also follow the rules");
         info.appendField("BanUtil version", BanUtil.VERSION, true);
         info.appendField("Discord4J version", Discord4J.VERSION, true);
         info.appendField("Deploy in a click to Heroku!", BanUtil.REPO, false);
