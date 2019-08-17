@@ -50,7 +50,7 @@ public class BanUtilStatusPage {
             String appId = BanUtil.getClient().getApplicationClientID();
             String link = String.format(INVITE_FORMAT, appId, BanUtil.REQUIRED_PERMISSIONS);
             return "<h3 style=\"display:inline\"><a href=\""
-                    + link + "\">Invite to server</a></h3> (remember BanUtil is a single server bot)";
+                    + link + "\">Invite to server</a></h3> (remember this is a single server bot)";
         }
 
         private String getExceptionTraceHTML() {
@@ -78,7 +78,7 @@ public class BanUtilStatusPage {
                 if (botStatus.dead) {
                     statusPage.append(PRE_TAG).append(UtilDue.BIG_FLASHY_ERROR).append("</pre>");
                     statusPage.append("<h2>The bot is dead!</h2>");
-                    statusPage.append("<p>Check that your token is correct and BanUtil is the latest version (or wait for the bot to login)!</a>");
+                    statusPage.append("<p>Check that your token is correct and the bot is running the latest version (or wait for the bot to login)!</a>");
                 } else {
                     statusPage.append("<h4>Something is not quite right...</h4>");
                     statusPage.append("<b>Config errors:</b><br>");
@@ -89,7 +89,6 @@ public class BanUtilStatusPage {
             }
             statusPage.append(this.getExceptionTraceHTML());
             statusPage.append("<p>Refresh page for updates.</p>");
-            statusPage.append("<p>Get your own BanUtil: <a href=\"" + BanUtil.REPO + "\">" + BanUtil.REPO + "</a></p>");
             statusPage.append("</body>");
             return new HttpResponse(statusPage.toString(), HttpStatusCode.OK, HttpMimeType.TXT) {
                 @Override
