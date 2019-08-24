@@ -85,7 +85,7 @@ public abstract class ModCommand extends Command {
 			} else {
 				UtilDue.sendMessage(channel,
 						"Could not" + actionInfo[1].toLowerCase()
-								+ "! (probably already have/don't have role)");
+								+ "! (probably already has/doesn't have the role)");
 			}
 		}
 	}
