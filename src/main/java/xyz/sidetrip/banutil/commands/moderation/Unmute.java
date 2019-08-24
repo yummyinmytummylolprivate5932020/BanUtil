@@ -13,7 +13,7 @@ public class Unmute extends Mute {
 
 	@Override
 	protected String getAction() {
-		return ":speaker: | Unmute User";
+		return ":speaker: | Unmuted User";
 	}
 
 	@Override
