@@ -12,7 +12,7 @@ public class Unban extends Ban {
 
 	@Override
 	protected String getAction() {
-		return ":unicorn: | Unbanne User";
+		return ":unicorn: | Unbanned User";
 	}
 
 	@Override
