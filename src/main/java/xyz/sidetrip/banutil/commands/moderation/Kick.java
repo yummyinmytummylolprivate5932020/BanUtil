@@ -15,7 +15,7 @@ public class Kick extends ModCommand {
 
 	@Override
 	protected String getAction() {
-		return ":boot: | Kick User!";
+		return ":boot: | Kicked User!";
 	}
 
 	@Override
